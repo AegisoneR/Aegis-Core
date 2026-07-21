@@ -1,0 +1,17 @@
+# Jekyll Configuration for Aegis One
+theme: jekyll-theme-cayman
+title: Aegis One
+description: Premium Electric Mobility Platform - Global Reservations Open
+
+# Exclude files from Jekyll
+exclude:
+  - server.py
+  - aegis_core.py
+  - reservation_store.py
+  - conftest.py
+  - test_*.py
+  - admin.html
+  - admin.css
+  - "*.sqlite"
+  - ".venv"
+  - "venv"

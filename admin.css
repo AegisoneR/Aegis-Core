@@ -1,0 +1,43 @@
+.admin-shell {
+  width: min(100%, 980px);
+}
+
+.admin-card {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.summary-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.summary-grid article {
+  background: #10253c;
+  border: 1px solid rgba(127, 217, 255, 0.2);
+  border-radius: 0.9rem;
+  padding: 1rem;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.summary-grid strong {
+  font-size: 1.4rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.8rem 0.6rem;
+  border-bottom: 1px solid rgba(127, 217, 255, 0.15);
+}
+
+th {
+  color: #7fd9ff;
+}
