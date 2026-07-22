@@ -1,0 +1,1 @@
+define core functions like input handlers, data processing, and validation. Add comments so each part is easy to follow, and keep the logic focused on one responsibility per function. Once you do that, you’ll have a solid, professional foundation
