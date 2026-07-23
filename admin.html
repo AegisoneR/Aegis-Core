@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aegis Admin Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/admin.css" />
+  </head>
+  <body>
+    <div class="page-shell admin-shell">
+      <header class="hero">
+        <p class="eyebrow">Admin view</p>
+        <h1>Reservation demand overview</h1>
+        <p class="hero-copy">Track customer interest by model and country to guide manufacturing, distribution, and investment decisions.</p>
+      </header>
+
+      <main class="card admin-card">
+        <section id="summary" class="summary-grid"></section>
+        <section class="reservations-section">
+          <h2>Latest reservations</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Country</th>
+                <th>Vehicle</th>
+                <th>Use case</th>
+                <th>Timeline</th>
+              </tr>
+            </thead>
+            <tbody id="reservation-body"></tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+    <script>
+      async function loadAdminData() {
+        const response = await fetch('/admin-data');
+        const data = await response.json();
+        const summary = document.getElementById('summary');
+        summary.innerHTML = `
+          <article><strong>${data.summary.total}</strong><span>Total reservations</span></article>
+          <article><strong>${Object.keys(data.summary.by_vehicle).length}</strong><span>Models requested</span></article>
+          <article><strong>${Object.keys(data.summary.by_country).length}</strong><span>Countries represented</span></article>
+        `;
+
+        const body = document.getElementById('reservation-body');
+        body.innerHTML = data.reservations.map((reservation) => `
+          <tr>
+            <td>${reservation.name}</td>
+            <td>${reservation.email}</td>
+            <td>${reservation.country}</td>
+            <td>${reservation.vehicle}</td>
+            <td>${reservation.usage || '—'}</td>
+            <td>${reservation.timeline || '—'}</td>
+          </tr>
+        `).join('');
+      }
+
+      loadAdminData();
+    </script>
+  </body>
+</html>
