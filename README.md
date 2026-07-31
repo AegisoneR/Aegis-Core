@@ -1,4 +1,4 @@
-# Aegis One - Global Electric Mobility Platform
+# AEGIS Motors - Global Electric Mobility Platform
 
 **Status:** 🚀 Ready for Launch
 **Current Phase:** Worldwide Reservations Open
@@ -6,9 +6,9 @@
 
 ## Executive Summary
 
-Aegis One is a **premium electric mobility platform** powered by innovative technology and global partnerships. We're launching with a two-pronged strategy:
+AEGIS Motors is a **premium electric mobility platform** powered by innovative technology and global partnerships. We're launching with a two-pronged strategy:
 
-1. **B2C Reservations** - Direct consumer reservations for Aegis One vehicles
+1. **B2C Reservations** - Direct consumer reservations for AEGIS Motors vehicles
 2. **B2B Partnerships** - Manufacturing, distribution, and investor networks
 3. **Tokenized Investment** - AEGIS token on Binance Smart Chain for community ownership
 
@@ -16,9 +16,9 @@ Aegis One is a **premium electric mobility platform** powered by innovative tech
 
 ## 🎯 Project Overview
 
-### What is Aegis One?
+### What is AEGIS Motors?
 
-Aegis One is a next-generation electric vehicle platform combining:
+AEGIS Motors is a next-generation electric vehicle platform combining:
 - **Premium Design** - Sleek, aerodynamic styling
 - **Performance** - 150km+ range, 0-60km in 6 seconds
 - **Safety** - Advanced collision detection, emergency braking
@@ -193,7 +193,7 @@ Capture investor inquiries
 
 ### Token Specs
 ```
-Name:           Aegis One
+Name:           AEGIS Motors
 Symbol:         AEGIS
 Standard:       BEP-20
 Blockchain:     Binance Smart Chain
@@ -237,7 +237,7 @@ Decimals:       18
 
 ## 💡 Zero-Cost Launch
 
-Aegis One launches with **$0 budget** using:
+AEGIS Motors launches with **$0 budget** using:
 - GitHub Pages (hosting)
 - SQLite (database)
 - Google Forms (data collection alternative)
@@ -334,9 +334,9 @@ python server.py
 
 ## 📞 Contact
 
-- **Investors:** investors@aegisone.com
-- **Partnerships:** partnerships@aegisone.com
-- **Technical:** technical@aegisone.com
+- **Investors:** investors@aegis-motors.com
+- **Partnerships:** partnerships@aegis-motors.com
+- **Technical:** technical@aegis-motors.com
 - **Telegram:** [@AegisOneOfficial]
 
 ---
@@ -391,6 +391,6 @@ MIT License - See [LICENSE](LICENSE) for details
 
 ---
 
-**Building the future of electric mobility. Join Aegis One.**
+**Building the future of electric mobility. Join AEGIS Motors.**
 
 *Last Updated: July 2026*

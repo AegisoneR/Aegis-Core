@@ -1,5 +1,8 @@
 import json
 import os
+import secrets
+import hashlib
+import base64
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse
 
@@ -10,6 +13,51 @@ from reservation_store import ReservationStore
 ROOT = os.path.dirname(__file__)
 DB_PATH = os.path.join(ROOT, "reservations.sqlite")
 STORE = ReservationStore(DB_PATH)
+
+# Admin credentials (set via environment variable ADMIN_PASSWORD)
+# Generate a secure hash on first run if not set
+def get_admin_hash():
+    password = os.environ.get("ADMIN_PASSWORD", "")
+    if not password:
+        return None
+    return hashlib.sha256(password.encode()).hexdigest()
+
+ADMIN_CREDENTIALS = {
+    "username": "admin",
+    "password_hash": get_admin_hash()
+}
+
+
+def check_admin_auth(self):
+    """Check if request has valid admin credentials"""
+    if ADMIN_CREDENTIALS["password_hash"] is None:
+        return False
+    
+    auth_header = self.headers.get("Authorization", "")
+    if not auth_header.startswith("Basic "):
+        return False
+    
+    try:
+        encoded = auth_header[6:]
+        decoded = base64.b64decode(encoded).decode("utf-8")
+        username, password = decoded.split(":", 1)
+        
+        username_hash = hashlib.sha256(username.encode()).hexdigest()
+        password_hash = hashlib.sha256(password.encode()).hexdigest()
+        
+        return (username_hash == hashlib.sha256(ADMIN_CREDENTIALS["username"].encode()).hexdigest() and
+                password_hash == ADMIN_CREDENTIALS["password_hash"])
+    except Exception:
+        return False
+
+
+def send_auth_required(self):
+    """Send 401 Unauthorized response with Basic Auth challenge"""
+    self.send_response(401)
+    self.send_header("WWW-Authenticate", 'Basic realm="Aegis Admin"')
+    self.send_header("Content-Type", "text/html; charset=utf-8")
+    self.send_header("Content-Length", "0")
+    self.end_headers()
 
 
 class AegisHandler(BaseHTTPRequestHandler):
@@ -22,6 +70,9 @@ class AegisHandler(BaseHTTPRequestHandler):
             return
 
         if resource == "/admin":
+            if not check_admin_auth(self):
+                send_auth_required(self)
+                return
             self._serve_file("admin.html", "text/html; charset=utf-8")
             return
 
@@ -42,6 +93,9 @@ class AegisHandler(BaseHTTPRequestHandler):
             return
 
         if resource == "/admin-data":
+            if not check_admin_auth(self):
+                send_auth_required(self)
+                return
             reservations = STORE.list_reservations()
             summary = {
                 "total": len(reservations),
@@ -123,42 +177,6 @@ class AegisHandler(BaseHTTPRequestHandler):
             return
 
         self._send_json(404, {"error": "not found"})
-
-    def _serve_file(self, filename, content_type):
-        file_path = os.path.join(ROOT, filename)
-        if not os.path.exists(file_path):
-            self._send_json(404, {"error": "not found"})
-            return
-
-        with open(file_path, "rb") as handle:
-            content = handle.read()
-
-        self.send_response(200)
-        self.send_header("Content-Type", content_type)
-        self.send_header("Content-Length", str(len(content)))
-        self.end_headers()
-        self.wfile.write(content)
-
-    def _send_json(self, status_code, payload):
-        body = json.dumps(payload).encode("utf-8")
-        self.send_response(status_code)
-        self.send_header("Content-Type", "application/json; charset=utf-8")
-        self.send_header("Content-Length", str(len(body)))
-        self.end_headers()
-        self.wfile.write(body)
-
-    def log_message(self, format, *args):
-        return
-
-
-def main():
-    server = ThreadingHTTPServer(("0.0.0.0", 8000), AegisHandler)
-    print("Aegis UI running at http://127.0.0.1:8000")
-    server.serve_forever()
-
-
-if __name__ == "__main__":
-    main()
 
     def _serve_file(self, filename, content_type):
         file_path = os.path.join(ROOT, filename)

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGS1 Token — Future Roadmap | AEGIS Motors</title>
+    <meta name="description"
+        content="AGS1: Future ecosystem token for AEGIS Motors mobility platform." />
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+        .token-hero {
+            background: linear-gradient(135deg, rgba(61, 142, 255, 0.1) 0%, rgba(127, 217, 255, 0.05) 100%);
+            padding: 2rem;
+            border-radius: 1.5rem;
+            border: 1px solid rgba(127, 217, 255, 0.3);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .coming-soon {
+            background: rgba(127, 217, 255, 0.1);
+            border: 1px solid rgba(127, 217, 255, 0.3);
+            border-radius: 1rem;
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .token-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .token-stat {
+            background: rgba(9, 20, 35, 0.9);
+            border: 1px solid rgba(127, 217, 255, 0.2);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .token-stat-value {
+            color: #7fd9ff;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .token-stat-label {
+            color: #8da4bb;
+            font-size: 0.9rem;
+        }
+
+        .allocation-chart {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .allocation-item {
+            background: rgba(16, 37, 60, 0.6);
+            border-left: 3px solid #7fd9ff;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+
+        .allocation-percent {
+            color: #7fd9ff;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+
+        .allocation-name {
+            color: #c7d4e2;
+            margin-top: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .vesting-timeline {
+            background: rgba(16, 37, 60, 0.4);
+            border: 1px solid rgba(127, 217, 255, 0.15);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .vesting-bar {
+            background: rgba(9, 20, 35, 0.9);
+            height: 30px;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            margin: 1rem 0;
+            border: 1px solid rgba(127, 217, 255, 0.2);
+        }
+
+        .vesting-fill {
+            background: linear-gradient(90deg, #3d8eff, #7fd9ff);
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #04111d;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .token-action-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .token-action-card {
+            background: rgba(9, 20, 35, 0.9);
+            border: 1px solid rgba(127, 217, 255, 0.2);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .token-action-card:hover {
+            border-color: rgba(127, 217, 255, 0.5);
+            background: rgba(16, 37, 60, 0.8);
+        }
+
+        .token-action-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contract-badge {
+            background: rgba(61, 142, 255, 0.1);
+            border: 1px solid rgba(127, 217, 255, 0.3);
+            border-radius: 0.5rem;
+            padding: 0.75rem;
+            margin: 1rem 0;
+            font-family: monospace;
+            font-size: 0.85rem;
+            color: #7fd9ff;
+            word-break: break-all;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-shell">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-brand">⚡ AEGIS Motors</div>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="#token-info">Token Info</a>
+                <a href="#allocation">Allocation</a>
+                <a href="#invest">Invest</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero token-hero">
+            <p class="eyebrow">Investment Opportunity</p>
+            <h1>AEGIS Token</h1>
+            <p class="hero-subtitle">Binance Smart Chain (BEP-20)</p>
+            <p class="hero-copy">
+                Invest in AEGIS Motors's global expansion. Join early backers and benefit from the future of electric
+                mobility.
+            </p>
+            <div class="hero-actions">
+                <a href="#invest" class="btn btn-primary">Invest Now</a>
+                <a href="https://bscscan.com/" target="_blank" class="btn btn-secondary">View on BscScan</a>
+            </div>
+        </header>
+
+        <!-- Token Stats -->
+        <section id="token-info" class="intro">
+            <h2>Token Overview</h2>
+
+            <div class="token-stats">
+                <div class="token-stat">
+                    <div class="token-stat-value">1B</div>
+                    <div class="token-stat-label">Total Supply</div>
+                </div>
+                <div class="token-stat">
+                    <div class="token-stat-value">AEGIS</div>
+                    <div class="token-stat-label">Token Symbol</div>
+                </div>
+                <div class="token-stat">
+                    <div class="token-stat-value">BEP-20</div>
+                    <div class="token-stat-label">Token Standard</div>
+                </div>
+                <div class="token-stat">
+                    <div class="token-stat-value">BSC</div>
+                    <div class="token-stat-label">Blockchain</div>
+                </div>
+            </div>
+
+            <p>
+                <strong>AEGIS Token</strong> is a BEP-20 cryptocurrency on Binance Smart Chain that represents
+                equity participation in AEGIS Motors's growth. Token holders participate in:
+            </p>
+            <ul class="feature-list">
+                <li>Governance decisions for AEGIS Motors expansion</li>
+                <li>Revenue sharing as the company grows</li>
+                <li>Exclusive discounts on AEGIS Motors vehicles</li>
+                <li>Early access to new products and features</li>
+                <li>Community voting on strategic decisions</li>
+            </ul>
+        </section>
+
+        <!-- Token Allocation -->
+        <section id="allocation" class="intro">
+            <h2>Token Allocation & Distribution</h2>
+
+            <div class="allocation-chart">
+                <div class="allocation-item">
+                    <div class="allocation-percent">20%</div>
+                    <div class="allocation-name">Early Backers</div>
+                    <div style="color: #8da4bb; font-size: 0.85rem; margin-top: 0.25rem;">200M AEGIS</div>
+                </div>
+                <div class="allocation-item">
+                    <div class="allocation-percent">20%</div>
+                    <div class="allocation-name">Seed Round</div>
+                    <div style="color: #8da4bb; font-size: 0.85rem; margin-top: 0.25rem;">200M AEGIS</div>
+                </div>
+                <div class="allocation-item">
+                    <div class="allocation-percent">25%</div>
+                    <div class="allocation-name">Public Sale</div>
+                    <div style="color: #8da4bb; font-size: 0.85rem; margin-top: 0.25rem;">250M AEGIS</div>
+                </div>
+                <div class="allocation-item">
+                    <div class="allocation-percent">15%</div>
+                    <div class="allocation-name">Team & Advisors</div>
+                    <div style="color: #8da4bb; font-size: 0.85rem; margin-top: 0.25rem;">150M AEGIS</div>
+                </div>
+                <div class="allocation-item">
+                    <div class="allocation-percent">10%</div>
+                    <div class="allocation-name">Community Rewards</div>
+                    <div style="color: #8da4bb; font-size: 0.85rem; margin-top: 0.25rem;">100M AEGIS</div>
+                </div>
+                <div class="allocation-item">
+                    <div class="allocation-percent">10%</div>
+                    <div class="allocation-name">Reserve</div>
+                    <div style="color: #8da4bb; font-size: 0.85rem; margin-top: 0.25rem;">100M AEGIS</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vesting Schedule -->
+        <section class="intro">
+            <h2>Investor Vesting Schedule</h2>
+
+            <div class="vesting-timeline">
+                <h3 style="margin-top: 0; color: #7fd9ff;">4-Year Vesting Plan</h3>
+
+                <div>
+                    <strong style="color: #c7d4e2;">Token Generation Event (TGE) - 25% Unlocked</strong>
+                    <div class="vesting-bar">
+                        <div class="vesting-fill" style="width: 25%;">25%</div>
+                    </div>
+                    <small style="color: #8da4bb;">Tokens available immediately upon purchase</small>
+                </div>
+
+                <div style="margin-top: 1.5rem;">
+                    <strong style="color: #c7d4e2;">Months 1-36 - 75% Vested</strong>
+                    <div class="vesting-bar">
+                        <div class="vesting-fill" style="width: 75%;">75% over 3 years</div>
+                    </div>
+                    <small style="color: #8da4bb;">Monthly unlocking schedule</small>
+                </div>
+
+                <div
+                    style="margin-top: 1.5rem; padding: 1rem; background: rgba(61, 142, 255, 0.1); border-radius: 0.5rem; border-left: 3px solid #7fd9ff;">
+                    <strong style="color: #7fd9ff;">Example:</strong>
+                    <p style="margin: 0.5rem 0 0; color: #c7d4e2;">
+                        If you purchase 100,000 AEGIS:
+                        <br />• Month 0: 25,000 tokens unlocked
+                        <br />• Months 1-36: 2,083 tokens per month (~75,000 total)
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Investment Tiers -->
+        <section class="intro">
+            <h2>Investment Tiers</h2>
+
+            <div class="allocation-chart">
+                <div class="allocation-item" style="border-left-color: #FFD700;">
+                    <div class="allocation-percent" style="color: #FFD700;">Angel</div>
+                    <div class="allocation-name">100,000 AEGIS</div>
+                    <div style="color: #8da4bb; font-size: 0.85rem; margin-top: 0.5rem;">100 BNB investment</div>
+                </div>
+                <div class="allocation-item" style="border-left-color: #C0C0C0;">
+                    <div class="allocation-percent" style="color: #C0C0C0;">Seed</div>
+                    <div class="allocation-name">500,000 AEGIS</div>
+                    <div style="color: #8da4bb; font-size: 0.85rem; margin-top: 0.5rem;">500 BNB investment</div>
+                </div>
+                <div class="allocation-item" style="border-left-color: #CD7F32;">
+                    <div class="allocation-percent" style="color: #CD7F32;">Growth</div>
+                    <div class="allocation-name">1,000,000 AEGIS</div>
+                    <div style="color: #8da4bb; font-size: 0.85rem; margin-top: 0.5rem;">1,000 BNB investment</div>
+                </div>
+            </div>
+
+            <p style="color: #8da4bb; margin-top: 1.5rem; font-size: 0.95rem;">
+                *Prices and tiers are indicative. Actual token economics will be finalized upon official launch.
+            </p>
+        </section>
+
+        <!-- How to Invest -->
+        <section id="invest" class="card">
+            <h2 style="margin-top: 0;">How to Invest in AEGIS</h2>
+
+            <div class="token-action-grid">
+                <div class="token-action-card">
+                    <div class="token-action-icon">👛</div>
+                    <h3>1. Set Up Wallet</h3>
+                    <p style="color: #8da4bb; margin: 0.5rem 0 0;">
+                        Download MetaMask or Binance Wallet
+                    </p>
+                </div>
+                <div class="token-action-card">
+                    <div class="token-action-icon">💰</div>
+                    <h3>2. Get BNB</h3>
+                    <p style="color: #8da4bb; margin: 0.5rem 0 0;">
+                        Buy BNB from exchange
+                    </p>
+                </div>
+                <div class="token-action-card">
+                    <div class="token-action-icon">🔗</div>
+                    <h3>3. Connect to BSC</h3>
+                    <p style="color: #8da4bb; margin: 0.5rem 0 0;">
+                        Connect wallet to Binance Smart Chain
+                    </p>
+                </div>
+                <div class="token-action-card">
+                    <div class="token-action-icon">🎯</div>
+                    <h3>4. Purchase AEGIS</h3>
+                    <p style="color: #8da4bb; margin: 0.5rem 0 0;">
+                        Use PancakeSwap or IDO platform
+                    </p>
+                </div>
+            </div>
+
+            <h3 style="color: #7fd9ff; margin-top: 2rem;">Purchase Links</h3>
+            <p style="color: #c7d4e2; margin-bottom: 1rem;">
+                Once the token launches, you'll be able to purchase AEGIS from:
+            </p>
+
+            <div style="display: grid; gap: 1rem;">
+                <a href="#"
+                    style="display: block; padding: 1rem; background: rgba(61, 142, 255, 0.15); border: 1px solid rgba(127, 217, 255, 0.3); border-radius: 0.8rem; color: #7fd9ff; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease;"
+                    onmouseover="this.style.background='rgba(61, 142, 255, 0.25)'"
+                    onmouseout="this.style.background='rgba(61, 142, 255, 0.15)'">
+                    🥞 Buy on PancakeSwap (Coming Soon)
+                </a>
+                <a href="#"
+                    style="display: block; padding: 1rem; background: rgba(61, 142, 255, 0.15); border: 1px solid rgba(127, 217, 255, 0.3); border-radius: 0.8rem; color: #7fd9ff; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease;"
+                    onmouseover="this.style.background='rgba(61, 142, 255, 0.25)'"
+                    onmouseout="this.style.background='rgba(61, 142, 255, 0.15)'">
+                    🚀 Participate in IDO (Coming Soon)
+                </a>
+            </div>
+        </section>
+
+        <!-- Use of Funds -->
+        <section class="intro">
+            <h2>Use of Investment Funds</h2>
+            <ul class="feature-list">
+                <li>Manufacturing partnerships and tooling (30%)</li>
+                <li>Product development and R&D (25%)</li>
+                <li>Distribution network expansion (20%)</li>
+                <li>Marketing and brand development (15%)</li>
+                <li>Operations and team (10%)</li>
+            </ul>
+        </section>
+
+        <!-- Disclaimer -->
+        <section class="intro"
+            style="background: rgba(255, 107, 107, 0.05); border: 1px solid rgba(255, 107, 107, 0.2);">
+            <h2 style="color: #ffb8b8;">⚠️ Important Disclaimer</h2>
+            <p style="color: #c7d4e2;">
+                <strong>This is not financial or investment advice.</strong> Cryptocurrency investments carry
+                significant risk.
+                Token value can fluctuate dramatically or go to zero. Never invest more than you can afford to lose.
+                Regulatory status varies by jurisdiction. Consult with a legal advisor before investing.
+            </p>
+            <p style="color: #8da4bb; margin-top: 1rem; font-size: 0.95rem;">
+                By investing, you acknowledge these risks and that you have read and understood our full terms and
+                conditions.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Token Links</h4>
+                    <ul>
+                        <li><a href="#">Contract on BscScan</a></li>
+                        <li><a href="#">View on CoinMarketCap</a></li>
+                        <li><a href="#">Trade on PancakeSwap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/investor-inquiry.html">Investor Info</a></li>
+                        <li><a href="#">Whitepaper</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: investors@aegis-motors.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AEGIS Motors. Building the future of electric mobility.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>

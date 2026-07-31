@@ -308,7 +308,7 @@ Net Profit Distribution:
 - **Telegram**: [To be created]
 - **Discord**: [To be created]
 - **Twitter**: [To be created]
-- **Email**: investors@aegisone.com
+- **Email**: investors@aegis-motors.com
 
 ---
 
@@ -335,16 +335,16 @@ Net Profit Distribution:
 ## 12. Contact & Support
 
 **For Investment Inquiries:**
-- Email: investors@aegisone.com
+- Email: investors@aegis-motors.com
 - Telegram: [@AegisOneOfficial]
 - Discord: [Aegis One Community]
 
 **For Technical Support:**
-- Email: technical@aegisone.com
+- Email: technical@aegis-motors.com
 - GitHub: [Aegis-One/smart-contracts]
 
 **For Media & Press:**
-- Email: press@aegisone.com
+- Email: press@aegis-motors.com
 
 ---
 
