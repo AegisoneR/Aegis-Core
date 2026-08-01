@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Admin Setup Script for Aegis One
+Admin Setup Script for AEGIS Motors
 
 This script helps you set up admin credentials for the dashboard.
 

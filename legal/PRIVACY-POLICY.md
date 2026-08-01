@@ -6,7 +6,7 @@
 
 ## 1. INTRODUCTION
 
-Aegis One ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website at [aegisone.com] (the "Site") and related services.
+AEGIS Motors ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website at [aegis-motors.com] (the "Site") and related services.
 
 **Please read this Privacy Policy carefully.** By accessing or using our Site, you consent to the practices described in this policy.
 
@@ -81,7 +81,7 @@ We may contact you about:
 You may opt out of marketing communications at any time by:
 
 - Using the unsubscribe link in emails
-- Contacting us at [privacy@aegisone.com]
+- Contacting us at [privacy@aegis-motors.com]
 
 Note: Transactional communications (reservation confirmations) cannot be opted out.
 
@@ -217,7 +217,7 @@ We will comply unless we have compelling legitimate grounds.
 
 To exercise any of these rights:
 
-**Email:** privacy@aegisone.com
+**Email:** privacy@aegis-motors.com
 **Response time:** Within 30 days
 
 ### 7.8 Verification
@@ -228,7 +228,7 @@ To protect your data, we may verify your identity before processing requests.
 
 If you believe we have violated your privacy rights, you may:
 
-1. Contact us directly: privacy@aegisone.com
+1. Contact us directly: privacy@aegis-motors.com
 2. File a complaint with your local data protection authority
 
 ---
@@ -307,9 +307,9 @@ Your continued use of our Site after any modifications indicates your acceptance
 
 For questions about this Privacy Policy or to exercise your rights:
 
-**Aegis One**
-Email: privacy@aegisone.com
-Website: https://aegisone.com/privacy
+**AEGIS Motors**
+Email: privacy@aegis-motors.com
+Website: https://aegis-motors.com/privacy
 
 **Data Protection Officer:** [Name/Contact]
 

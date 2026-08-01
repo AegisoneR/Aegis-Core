@@ -8,7 +8,7 @@
 
 ## WARRANTY OVERVIEW
 
-Aegis One is committed to quality and reliability. This Warranty Framework outlines the warranty coverage, terms, and conditions for Aegis One vehicles.
+AEGIS Motors is committed to quality and reliability. This Warranty Framework outlines the warranty coverage, terms, and conditions for AEGIS Motors vehicles.
 
 **Important:** This is a framework document. Final warranty terms will be provided with your vehicle purchase and may vary by market based on local regulations and requirements.
 
@@ -30,7 +30,7 @@ Aegis One is committed to quality and reliability. This Warranty Framework outli
 
 ### 1.2 What's Covered
 
-Under normal use and proper maintenance, Aegis One warrants that:
+Under normal use and proper maintenance, AEGIS Motors warrants that:
 
 | Category | Covered Items |
 |----------|---------------|
@@ -143,7 +143,7 @@ If claim is denied, you will receive:
 
 If you believe a claim was wrongly denied:
 
-1. Contact Aegis One Customer Service
+1. Contact AEGIS Motors Customer Service
 2. Provide additional documentation
 3. Request review
 4. Await decision within [TBD] days
@@ -154,17 +154,17 @@ If you believe a claim was wrongly denied:
 
 ### 4.1 Available Remedies
 
-If a defect is confirmed under warranty, Aegis One will, at its discretion:
+If a defect is confirmed under warranty, AEGIS Motors will, at its discretion:
 
 | Remedy | Description |
 |--------|-------------|
 | **Repair** | Fix the defective component |
 | **Replace** | Replace with new or refurbished component |
-| **Refund** | Refund purchase price (at Aegis One discretion) |
+| **Refund** | Refund purchase price (at AEGIS Motors discretion) |
 
 ### 4.2 Remedy Selection
 
-- **Aegis One selects** the appropriate remedy
+- **AEGIS Motors selects** the appropriate remedy
 - **Repair is preferred** where practical
 - **Replacement** used when repair is impractical
 - **No refund** unless specifically authorized
@@ -195,8 +195,8 @@ Warranty requires:
 
 All warranty-covered maintenance must be performed:
 
-- At an Aegis One authorized service center
-- Using Aegis One approved parts
+- At an AEGIS Motors authorized service center
+- Using AEGIS Motors approved parts
 - By certified technicians
 
 ### 5.3 Service Records
@@ -217,7 +217,7 @@ Keep records of all maintenance:
 
 An extended warranty may be available for purchase:
 
-- Contact your dealer or Aegis One
+- Contact your dealer or AEGIS Motors
 - Available within [TBD] days of original purchase
 - Subject to vehicle inspection
 
@@ -289,14 +289,14 @@ Keep these documents for warranty claims.
 
 ### 9.1 Warranty Inquiries
 
-**Email:** warranty@aegisone.com
+**Email:** warranty@aegis-motors.com
 **Phone:** [TBD]
-**Website:** https://aegisone.com/warranty
+**Website:** https://aegis-motors.com/warranty
 
 ### 9.2 Service Locator
 
 Find authorized service centers:
-**Website:** https://aegisone.com/service-locator
+**Website:** https://aegis-motors.com/service-locator
 
 ---
 
@@ -328,10 +328,10 @@ Find authorized service centers:
 
 ---
 
-**This warranty framework represents Aegis One's current warranty policy and is subject to change. Final warranty terms are provided with vehicle purchase.**
+**This warranty framework represents AEGIS Motors's current warranty policy and is subject to change. Final warranty terms are provided with vehicle purchase.**
 
 ---
 
-*For the most current warranty information, visit https://aegisone.com/warranty or contact your authorized Aegis One dealer.*
+*For the most current warranty information, visit https://aegis-motors.com/warranty or contact your authorized AEGIS Motors dealer.*
 
 *Last Updated: [Date]*

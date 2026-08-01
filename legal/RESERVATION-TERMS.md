@@ -6,7 +6,7 @@
 
 ## RESERVATION OVERVIEW
 
-Your reservation for an Aegis One vehicle is an **expression of interest** that helps us understand demand and plan production. Please read these terms carefully.
+Your reservation for an AEGIS Motors vehicle is an **expression of interest** that helps us understand demand and plan production. Please read these terms carefully.
 
 ---
 
@@ -14,7 +14,7 @@ Your reservation for an Aegis One vehicle is an **expression of interest** that 
 
 ### What Your Reservation IS
 
-- A way to indicate your interest in Aegis One
+- A way to indicate your interest in AEGIS Motors
 - A request for updates about availability and launch
 - A signal of demand that helps us plan manufacturing
 - An opportunity for priority when production begins
@@ -33,7 +33,7 @@ Your reservation for an Aegis One vehicle is an **expression of interest** that 
 
 ### 2.1 How to Reserve
 
-1. Visit [aegisone.com] and complete the reservation form
+1. Visit [aegis-motors.com] and complete the reservation form
 2. Provide accurate contact information
 3. Select your preferred vehicle model
 4. Confirm your country of interest
@@ -55,7 +55,7 @@ Save your confirmation for your records.
 
 ### 3.1 What You'll Receive
 
-As an Aegis One reservation holder, you'll receive:
+As an AEGIS Motors reservation holder, you'll receive:
 
 | Update Type | Frequency | Content |
 |-------------|-----------|---------|
@@ -105,7 +105,7 @@ Priority consideration may be given based on:
 
 ## 5. CHANGES AND MODIFICATIONS
 
-### 5.1 By Aegis One
+### 5.1 By AEGIS Motors
 
 We reserve the right to:
 
@@ -125,7 +125,7 @@ You may modify your reservation:
 - Change preferred vehicle model
 - Update geographic preference
 
-Contact us at [reservations@aegisone.com] for modifications.
+Contact us at [reservations@aegis-motors.com] for modifications.
 
 ---
 
@@ -135,7 +135,7 @@ Contact us at [reservations@aegisone.com] for modifications.
 
 You may cancel your reservation at any time:
 
-**Email:** [reservations@aegisone.com]
+**Email:** [reservations@aegis-motors.com]
 **Subject:** "Reservation Cancellation"
 **Include:** Your name and email used for reservation
 
@@ -180,7 +180,7 @@ We will never ask you to:
 - Provide credit card information for "reservation holding"
 - Pay a deposit before official order process
 
-If you receive a suspicious request, contact us immediately at [security@aegisone.com].
+If you receive a suspicious request, contact us immediately at [security@aegis-motors.com].
 
 ---
 
@@ -205,7 +205,7 @@ We will not send unrelated marketing or share your information with third partie
 You may opt out of marketing communications at any time:
 
 - Use the unsubscribe link in emails
-- Contact [unsubscribe@aegisone.com]
+- Contact [unsubscribe@aegis-motors.com]
 
 Note: Transactional communications cannot be opted out.
 
@@ -241,7 +241,7 @@ We shall not be liable for:
 
 All content on our website and in communications, including:
 
-- Aegis One name and logo
+- AEGIS Motors name and logo
 - Vehicle images and descriptions
 - Specifications and features
 
@@ -281,11 +281,11 @@ Your continued holding of a reservation after changes constitutes acceptance of 
 
 For questions about your reservation:
 
-**Email:** reservations@aegisone.com
-**Website:** https://aegisone.com/reservations
+**Email:** reservations@aegis-motors.com
+**Website:** https://aegis-motors.com/reservations
 
 For general inquiries:
-**Email:** hello@aegisone.com
+**Email:** hello@aegis-motors.com
 
 ---
 

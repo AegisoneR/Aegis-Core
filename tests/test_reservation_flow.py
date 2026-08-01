@@ -10,7 +10,7 @@ def test_accepts_complete_reservation_details():
         "email": "ada@example.com",
         "phone": "+1 555 123 4567",
         "country": "United States",
-        "vehicle": "Aegis One",
+        "vehicle": "AEGIS Motors - Standard",
     })
 
     assert result["success"] is True
@@ -41,7 +41,7 @@ def test_allows_reservation_without_optional_fields():
         "email": "ada@example.com",
         "phone": "+1 555 123 4567",
         "country": "United States",
-        "vehicle": "Aegis One",
+        "vehicle": "AEGIS Motors - Standard",
     })
 
     assert result["success"] is True

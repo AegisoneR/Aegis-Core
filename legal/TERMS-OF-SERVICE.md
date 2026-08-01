@@ -6,7 +6,7 @@
 
 ## 1. ACCEPTANCE OF TERMS
 
-Welcome to Aegis One ("Aegis One," "we," "us," or "our"). By accessing or using our website at [aegisone.com] (the "Site") and related services, you ( "you" or "user") agree to be bound by these Terms of Service ("Terms").
+Welcome to AEGIS Motors ("AEGIS Motors," "we," "us," or "our"). By accessing or using our website at [aegis-motors.com] (the "Site") and related services, you ( "you" or "user") agree to be bound by these Terms of Service ("Terms").
 
 If you do not agree to these Terms, do not access or use the Site.
 
@@ -20,7 +20,7 @@ We reserve the right to modify these Terms at any time. Changes will be effectiv
 
 ## 3. DESCRIPTION OF SERVICES
 
-Aegis One operates a global electric mobility platform. Our services include:
+AEGIS Motors operates a global electric mobility platform. Our services include:
 
 - Vehicle reservation system
 - Product information and specifications
@@ -110,7 +110,7 @@ You agree NOT to:
 - Interfere with Site operations
 - Transmit harmful code or content
 - Collect user information without consent
-- Impersonate Aegis One or its representatives
+- Impersonate AEGIS Motors or its representatives
 
 ---
 
@@ -118,7 +118,7 @@ You agree NOT to:
 
 ### 7.1 Ownership
 
-All content on this Site, including text, graphics, logos, images, and software, is the property of Aegis One or its licensors and is protected by intellectual property laws.
+All content on this Site, including text, graphics, logos, images, and software, is the property of AEGIS Motors or its licensors and is protected by intellectual property laws.
 
 ### 7.2 License
 
@@ -135,7 +135,7 @@ You may not:
 
 ### 7.4 Trademarks
 
-"Aegis One," the Aegis One logo, and related marks are trademarks of [Company Name]. Unauthorized use is prohibited.
+"AEGIS Motors," the AEGIS Motors logo, and related marks are trademarks of [Company Name]. Unauthorized use is prohibited.
 
 ---
 
@@ -204,7 +204,7 @@ This limitation does not apply to:
 
 ## 12. INDEMNIFICATION
 
-You agree to indemnify, defend, and hold harmless Aegis One and its affiliates from any claims, damages, losses, or expenses (including legal fees) arising from:
+You agree to indemnify, defend, and hold harmless AEGIS Motors and its affiliates from any claims, damages, losses, or expenses (including legal fees) arising from:
 
 - Your violation of these Terms
 - Your misuse of the Site
@@ -262,7 +262,7 @@ You agree to resolve disputes individually and waive any right to participate in
 
 ### 15.1 Entire Agreement
 
-These Terms, together with our Privacy Policy, constitute the entire agreement between you and Aegis One regarding your use of the Site.
+These Terms, together with our Privacy Policy, constitute the entire agreement between you and AEGIS Motors regarding your use of the Site.
 
 ### 15.2 Severability
 
@@ -280,7 +280,7 @@ You may not assign these Terms without our written consent. We may assign these 
 
 Notices shall be provided to:
 
-- Email: [legal@aegisone.com]
+- Email: [legal@aegis-motors.com]
 - Address: [Company Address]
 
 ---
@@ -289,9 +289,9 @@ Notices shall be provided to:
 
 For questions about these Terms of Service, contact us:
 
-**Aegis One**
-Email: legal@aegisone.com
-Website: https://aegisone.com
+**AEGIS Motors**
+Email: legal@aegis-motors.com
+Website: https://aegis-motors.com
 
 ---
 

@@ -244,7 +244,7 @@ You have everything needed:
 
 ### Token Details
 ```
-Name:               Aegis One
+Name:               AEGIS Motors
 Symbol:             AEGIS
 Blockchain:         Binance Smart Chain
 Network:            Mainnet (Chain ID: 56)
@@ -380,7 +380,7 @@ After deployment, track:
 **Objective:** Deploy AEGIS token to BSC mainnet
 **Timeline:** 1 hour
 **Cost:** ~$130 + your liquidity BNB
-**Result:** Live cryptocurrency for global Aegis One investment
+**Result:** Live cryptocurrency for AEGIS Motors investment
 
 **You have all the tools. Now deploy! 🎉**
 
