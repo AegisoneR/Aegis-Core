@@ -431,24 +431,24 @@ git push origin main
 ## 📞 Support & Contacts
 
 ### For Investors
-- **Email:** investors@aegisone.com
+- **Email:** investors@aegis-motors.com
 - **Form:** /investor-inquiry.html
 - **Telegram:** [@AegisOneOfficial]
 
 ### For Manufacturers
-- **Email:** partnerships@aegisone.com
+- **Email:** partnerships@aegis-motors.com
 - **Form:** /manufacturer-inquiry.html
 - **Country Focus:** Sri Lanka, India, Southeast Asia
 
 ### For Distributors
-- **Email:** partnerships@aegisone.com
+- **Email:** partnerships@aegis-motors.com
 - **Form:** /distributor-inquiry.html
 - **Territory:** 27 target countries
 
 ### For Customers
 - **Reservations:** /index.html (14-field form)
 - **Countries:** 140+ supported
-- **Support:** technical@aegisone.com
+- **Support:** technical@aegis-motors.com
 
 ---
 
